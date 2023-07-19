@@ -241,3 +241,63 @@ margin: 0px 0px;
 
 /* gamer styles ends here  */
 
+
+
+
+/* online games styles   */
+
+.online-games-container{
+margin: 100px;
+/* text-align: center; */
+
+}
+
+.online-games-container h2{
+   color: black;
+   text-align: center;
+   font-size: 35px;
+   font-weight: 700px;
+
+    
+    }
+
+.video-color{
+    background-image: linear-gradient(to bottom,#8758F1 , #F948B2);
+    color:transparent;
+    -webkit-background-clip: text;
+}
+
+.online-games-container p{
+color: #534C64;
+text-align: left;
+font-size: 15PX;
+font-weight: 400;
+line-height: 30PX;
+margin-bottom: 50PX;
+}
+
+.online-games-container .text-des{
+    color: #534C64;
+    text-align: center;
+    font-size: 18PX;
+    font-weight: 400;
+   
+}
+
+.games-img-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+    /* min-height: 400px; */
+
+
+}
+   /* online game funny styles ends here */
+
+
+
+

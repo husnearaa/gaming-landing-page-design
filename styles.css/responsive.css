@@ -85,6 +85,14 @@ margin: auto;
 /* gamer responsive end here  */
 
 
+   online game funny styles 
+    .games-img-container{
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    /* online game funny responsive ends here   */
+
 
 }
 
