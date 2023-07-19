@@ -1,0 +1,243 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    
+}
+.nav-container{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-container{
+    display: flex;
+    width: 50%;
+}
+
+.logo-container img{ 
+    height: 20px; 
+    width: 40px;
+    object-fit: cover;
+    margin-top: 39px;
+    margin-right: 10px;
+}
+
+.logo-container p{
+font-size: 30px;
+font-weight: 700;
+}
+
+.head-color{
+    color: #FF42A5;
+}
+
+.nav-items-container{
+    color: #3C354F;
+    font-weight: 500;
+    font-size: 16px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items-container a{
+    text-decoration: none;
+}
+
+.follow-us-btn{
+    border-radius: 4px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 30px;
+    text-align: center;
+}
+
+
+/* nav design ends here  */
+
+
+
+/* banner styles starts here  */
+
+.banner-container{
+    /* margin: 50px auto 0; */
+    /* max-width: 1200px; */
+    min-height: 50px;
+    display: flex;
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.banner-text{
+        width: 50%;
+    /* text-align: center; */
+    text-align: center;
+    align-items: center;
+   /* margin: 40px 0px 0px 120px; */
+   
+}
+
+.banner-img{
+    width: 50%;
+    margin-right: 50px;
+
+}
+
+.banner-img img{
+    width: 95%;
+    /* height: 100%; */
+    
+}
+
+.banner-text h2{
+
+    color: #0B0223;
+    font-size: 35px;
+    font-weight: 600;;
+    padding-bottom: 0px;
+    margin-top: 50px;
+
+    
+}
+
+
+.banner-text h1{
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color:transparent;
+    -webkit-background-clip: text;
+    font-size: 70px;
+    font-weight: 800;
+    /* padding: px; */
+margin: 0px 0px;
+}
+
+.banner-text p{
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 500;
+    /* text-align: left; */
+    /* fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%); */
+}
+
+
+
+.banner-button1{
+    padding: 15px 30px;
+    border-radius: 48px;
+    border: none;
+    color: #FFF;
+    background-color: #FF42A5;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 10px;
+
+}
+
+.banner-button2{
+    border-radius: 48px;
+    border: none;
+    background: #4EC5F7;
+    display: inline-flex;
+    padding: 15px 40px;
+    font-size: 15px;
+    color: #FFF;
+}
+
+/* banner styles ends here  */
+
+
+.gamer-container{
+    min-height: 50px;
+    display: flex;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  
+}
+
+.gamer-img{
+
+    width: 50%;
+    /* margin-right: 50px; */
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.gamer-img img{
+
+    width: 100%;
+    /* size: 100px; */
+  
+}
+
+.gamer-text{
+ 
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+ 
+}
+
+.gamer-text h1{
+    text-align: right;
+    font-size: 30px;
+    font-weight: 700;
+    padding-right: 100px;
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color:transparent;
+    -webkit-background-clip: text;
+
+
+}
+
+.gamer-text p{
+
+    color: #534C64;
+    text-align: right; 
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    padding-right: 100px;
+    padding-left: 50px ;
+}
+
+.gamer-btn{
+    padding: 15px 30px;
+    border-radius: 48px;
+    border: none;
+    color: #FFF;
+    background-color: #FF42A5;
+    font-size: 15px;
+    font-weight: 600;
+   margin-left: 330px;
+
+
+
+}
+
+.gamer-text .para3{
+    color: #534C64;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.gamer-text .para2{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* gamer styles ends here  */
+

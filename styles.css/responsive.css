@@ -1,0 +1,90 @@
+@media screen and (max-width: 400px){
+    .nav-container{
+       flex-direction: column;
+    }
+
+    .nav-items-container{
+       flex-direction: column;
+       width: 100%;
+    }
+
+    .nav-items-container a{
+     margin-top: 20px;
+    }
+
+    .follow-us-btn{
+      width: 100%;
+      margin-bottom: 15px;
+    }
+
+/* nav responsive end here  */
+
+
+
+    .banner-container{
+        flex-direction: column;
+
+      }
+
+      .banner-text h1{
+        font-size: 50px;
+      }
+
+      .banner-text h2{
+        font-size: 20px ;
+      }
+      .banner-text, .banner-img{
+        width: 100%;
+}
+
+/* banner responsive ends here  */
+
+.gamer-container{
+    flex-direction: column;
+
+  }
+ .gamer-text, .gamer-img{
+ width: 100%;
+
+}
+.gamer-text{
+    align-items: center;
+    text-align: center;
+}
+
+.gamer-text h1{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 70px;
+}
+
+.gamer-text p{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.gamer-text .para3{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.gamer-text .para2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.gamer-text, .gamer-btn{
+
+align-items: center;
+padding: auto;
+margin: auto;
+}
+
+
+/* gamer responsive end here  */
+
+
+
+}
+
