@@ -17,7 +17,7 @@ nav {
 .nav-container {
     display: flex;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1630px;
     margin: 0 auto;
 }
 
@@ -33,8 +33,6 @@ nav {
     height: 20px;
     width: 40px;
     object-fit: cover;
-    /* margin-top: 39px;
-    margin-right: 10px; */
 }
 
 .logo-container p {
@@ -48,10 +46,6 @@ nav {
 }
 
 .nav-items-container {
-    /* color: #3C354F;
-    font-weight: 500;
-    font-size: 16px;
-    width: 50%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,20 +85,19 @@ nav {
 /* banner styles starts here  */
 
 .banner-container {
-    /* margin: 50px auto 0; */
-    /* max-width: 1200px; */
     min-height: 50px;
     display: flex;
     text-align: center;
-    /* padding: 10px; */
+    max-width: 1630px;
+    min-height: 500px;
+    margin: 0 auto;
 }
 
 .banner-text {
     width: 50%;
-    /* text-align: center; */
     text-align: center;
     align-items: center;
-    /* margin: 40px 0px 0px 120px; */
+
 
 }
 
@@ -116,7 +109,7 @@ nav {
 
 .banner-img img {
     width: 95%;
-    /* height: 100%; */
+
 
 }
 
@@ -125,11 +118,8 @@ nav {
     color: #0B0223;
     font-size: 35px;
     font-weight: 600;
-    ;
     padding-bottom: 0px;
     margin-top: 50px;
-
-
 }
 
 
@@ -147,8 +137,8 @@ nav {
     /* color: #534C64;
     font-size: 15px;
     font-weight: 500;
-     text-align: left;
-    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);  */
+     text-align: left;*/
+
     color: #534C64;
     text-align: left;
     font-size: 20px;
@@ -189,7 +179,9 @@ nav {
     min-height: 50px;
     display: flex;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-
+    max-width: 1630px;
+    /* min-height: 500px; */
+    margin: 0 auto;
 }
 
 .gamer-img {
@@ -218,7 +210,7 @@ nav {
 
 .gamer-text h1 {
     text-align: right;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700;
     padding-right: 100px;
     background-image: linear-gradient(to bottom, #F948B2, #8758F1);
@@ -233,7 +225,7 @@ nav {
     color: #534C64;
     text-align: right;
     align-items: center;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
     padding-right: 100px;
     padding-left: 50px;
@@ -375,15 +367,14 @@ nav {
     height: 300px;
     width: 280px;
 }
-
-
 /* play game styles ends here */
+
 
 
 /* button styles ends here*/
 .button-container {
     /* background-color: rgba(255, 66, 165, 1) */
-    min-height: 200px;
+    min-height: 250px;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -415,7 +406,7 @@ nav {
 
 .button :hover{
     border: none;
-    /* color: rgba(255, 66, 165, 1) ; */
+ 
 }
 
 .button{
@@ -440,11 +431,11 @@ nav {
     gap: 5px;
     border: none;
 }
-
 /* button styles ends here*/
 
-/* footer styles starts here */
 
+
+/* footer styles starts here */
 .footer-container {
 
     align-items: center;
